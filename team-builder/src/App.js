@@ -8,7 +8,7 @@ import Form from "./Form.js";
 function App() {
 const initialTeam = [
     {id:uuid(), name:"Nathan", email:"Nathan@lambda.com", role:"Back-End Engineer"},
-    {id:uuid(), name:"Kyle", email:"Kyle@lambda.com", role:"Font-End Engineer"},
+    {id:uuid(), name:"Kyle", email:"Kyle@lambda.com", role:"Front-End Engineer"},
     {id:uuid(), name:"Emily", email:"Emily@lambda.com", role:"UI Engineer"},
     {id:uuid(), name:"Sam", email:"Sam@lambda.com", role:"Mobile Engineer"},
     {id:uuid(), name:"Allen", email:"Allen@lambda.com", role:"Data Scientist"},
