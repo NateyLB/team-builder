@@ -11,7 +11,8 @@ const initialTeam = [
     {id:uuid(), name:"Kyle", email:"Kyle@lambda.com", role:"Font-End Engineer"},
     {id:uuid(), name:"Emily", email:"Emily@lambda.com", role:"UI Engineer"},
     {id:uuid(), name:"Sam", email:"Sam@lambda.com", role:"Mobile Engineer"},
-    {id:uuid(), name:"Allen", email:"Allen@lambda.com", role:"Data Scientist"}
+    {id:uuid(), name:"Allen", email:"Allen@lambda.com", role:"Data Scientist"},
+    {id:uuid(), name:"Michael", email:"Michael@lambda.com", role:"Encoding Specialist"}
   ];
   
   const [team ,setTeam] = useState(initialTeam);
@@ -35,7 +36,7 @@ const initialTeam = [
   console.log(team);
 
   return (
-    <div>
+    <div id="main-wrapper">
       <TeamList data={team}/>
       <Form onFormSubmit={onFormSubmit}/>
     </div>

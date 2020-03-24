@@ -5,7 +5,7 @@ function Form(props) {
 const onFormSubmit = props.onFormSubmit;
     return (
         <div>
-            <h3>Add a team meber</h3>
+            <h3>Add a team member</h3>
             <form onSubmit={onFormSubmit}>
         <label>
             Name:

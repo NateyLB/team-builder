@@ -4,7 +4,7 @@ import Card from "./Card.js";
 function TeamList (props){
 
 return(
-    <div>
+    <div id="team-list">
         {props.data.map(element =>{
             return <Card data={element} />
         })}
